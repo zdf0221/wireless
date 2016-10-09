@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/CSS/bootstrap-theme.min.css">
+    <script type="text/javascript" src="/static/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/JS/jquery-3.1.0.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>登陆成功！</title>
+</head>
+<body>
+    <p>请确认你的账户信息：</p>
+    {% for foo in personList %}
+        {{ foo }}
+    {% endfor %}
+    <br>
+    <!--
+    <input type="radio" name="确认">
+    -->
+
+    <button class="btn btn-default" onclick="location='/createAccount'">前往开户页面</button>
+    <button class="btn btn-default" onclick="location='/userinfo'">前往用户信息页面</button>
+    <button class="btn btn-default" onclick="location='/'">返回首页</button>
+</body>
+</html>

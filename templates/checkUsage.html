@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>账号详单查询</title>
+</head>
+<body>
+    <p>当前用户所持号码：</p>
+    {% for foo in numberList %}
+        <li>{{ foo }}</li>
+        <br>
+    {% endfor %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="提交">
+    </form>
+    <p>详单：</p>
+    <br>
+    {% for foo in totalList %}
+        {{ foo }}
+        <br>
+    {% endfor %}
+    
+</body>
+</html>
+<!--
+<script>
+    document.getElementById('checkall').onclick = function () {
+        document.getElementById('accountNumber').setAttribute("disabled", "disabled")
+    }
+</script>

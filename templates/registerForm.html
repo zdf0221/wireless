@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/CSS/bootstrap-theme.min.css">
+    <script type="text/javascript" src="/static/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/JS/jquery-3.1.0.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>新入网用户信息表</title>
+</head>
+<body>
+    <p>请填写下列信息：</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <input class="input-group" type="submit" value="提交">
+
+    </form>
+</body>
+</html>

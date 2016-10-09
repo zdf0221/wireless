@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/CSS/bootstrap-theme.min.css">
+    <script type="text/javascript" src="/static/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/JS/jquery-3.1.0.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>开户</title>
+</head>
+<body>
+    <p>欢迎您：{{ curUser }}</p>
+    <p>套餐选择：</p>
+    {% for foo in packList %}
+        <li>{{ foo }}</li>
+        <br>
+    {% endfor %}
+    <p>号码选择：</p>
+    {% for foo in numList %}
+        <li>{{ foo }}</li>
+    {% endfor %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="提交">
+    </form>
+    <br>
+
+</body>
+</html>

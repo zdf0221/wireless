@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/CSS/bootstrap-theme.min.css">
+    <script type="text/javascript" src="/static/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/JS/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="/static/JS/userinfo.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>用户界面</title>
+</head>
+<body>
+    <p>欢迎您：{{ username }}</p>
+    <p>个人信息：</p>
+    {% for foo in userList %}
+        {{ foo }}
+        <br>
+    {% endfor %}
+    <br>
+    <p>账户信息：</p>
+    {% for foo in accountList %}
+        {{ foo }}
+        <br>
+    {% endfor %}
+    <br>
+    <button class="btn btn-default" onclick="location = '/userinfo_change'">修改客户资料</button>
+    <button class="btn btn-default" onclick="location = '/stop_service'">停机/销号</button>
+    <button class="btn btn-default" onclick="location = '/restore_service'">复机</button>
+    <button class="btn btn-default" onclick="location = '/chargeFee'">账户充值</button>
+    <button class="btn btn-default" onclick="location = '/check_user_usage'">用户周期详单查询</button>
+    <button class="btn btn-default" onclick="location = '/check_usage'">账号周期详单查询</button>
+    <button class="btn btn-default" onclick="location = '/new_usage'">模拟新建话务单</button>
+    <button class="btn btn-default" onclick="location = '/userinfo'">刷新用户状态与余额</button>
+</body>
+</html>
