@@ -1,0 +1,7 @@
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-05 23:34:00.000000', '2016-10-05 23:36:05.000000', 'local', 0);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-05 23:34:00.000000', '2016-10-05 23:35:00.000000', 'remote', 0);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-06 15:39:00.000000', '2016-10-06 15:40:00.000000', 'local', 1.3);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-06 19:25:00.000000', '2016-10-06 19:29:00.000000', 'local', 0.8);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-06 19:25:00.000000', '2016-10-06 19:45:00.000000', 'local', 0);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-06 19:25:00.000000', '2016-10-06 19:45:00.000000', 'local', 2);
+INSERT INTO managedb.managesys_traffic (callerNumber, receiverNumber, startTime, endTime, callType, fee) VALUES ('13681246911', '13552994751', '2016-10-07 00:00:00.000000', '2016-10-07 00:05:00.000000', 'local', 1);

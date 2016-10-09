@@ -1,0 +1,1 @@
+INSERT INTO managedb.managesys_standard (localFee, smsFee, dataFee, remoteFee) VALUES ('0.2', '0.1', '0.1', '0.6');

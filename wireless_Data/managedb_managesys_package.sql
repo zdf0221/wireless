@@ -1,0 +1,3 @@
+INSERT INTO managedb.managesys_package (packNumber, dataAmount, localAmount, packFee, packName, packType, remoteAmount, smsAmount) VALUES ('1', '0', '300', '15', 'local_15_300min', 'local', '0', '0');
+INSERT INTO managedb.managesys_package (packNumber, dataAmount, localAmount, packFee, packName, packType, remoteAmount, smsAmount) VALUES ('2', '0', '0', '10', 'remote_10_200min', 'remote', '200', '0');
+INSERT INTO managedb.managesys_package (packNumber, dataAmount, localAmount, packFee, packName, packType, remoteAmount, smsAmount) VALUES ('3', '300', '0', '10', 'data_10_300m', 'data', '0', '0');

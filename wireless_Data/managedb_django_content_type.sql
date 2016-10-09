@@ -1,0 +1,14 @@
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('admin', 'logentry');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('auth', 'group');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('auth', 'permission');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('auth', 'user');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('contenttypes', 'contenttype');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'account');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'dataflow');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'number');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'package');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'sms');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'standard');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'traffic');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('managesys', 'user');
+INSERT INTO managedb.django_content_type (app_label, model) VALUES ('sessions', 'session');
