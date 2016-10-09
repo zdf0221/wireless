@@ -1,0 +1,2 @@
+INSERT INTO managedb.managesys_sms (senderNumber, receiverNumber, sendTime, receiveTime, fee) VALUES ('13681246911', '13552994751', '2016-10-05 23:34:00.000000', '2016-10-05 23:35:00.000000', 0);
+INSERT INTO managedb.managesys_sms (senderNumber, receiverNumber, sendTime, receiveTime, fee) VALUES ('13681246911', '13552994751', '2016-10-05 23:34:00.000000', '2016-10-05 23:39:00.000000', 0);

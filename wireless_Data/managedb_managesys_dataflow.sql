@@ -1,0 +1,2 @@
+INSERT INTO managedb.managesys_dataflow (userNumber, startTime, endTime, dataflow, fee) VALUES ('13681246911', '2016-10-05 23:04:00.000000', '2016-10-05 23:14:00.000000', '23.21', 0);
+INSERT INTO managedb.managesys_dataflow (userNumber, startTime, endTime, dataflow, fee) VALUES ('13681246911', '2016-10-06 19:52:00.000000', '2016-10-06 20:52:00.000000', '200.0', 204.8);

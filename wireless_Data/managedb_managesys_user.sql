@@ -1,0 +1,1 @@
+INSERT INTO managedb.managesys_user (personalID, username, userType, accountNumber) VALUES ('110', 'zdf', 'user', '13681246911');
