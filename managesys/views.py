@@ -271,7 +271,7 @@ def checkUsage(request):
                     tmp += str(trafficList[i].startTime) + " "
                     tmp += str(trafficList[i].endTime) + " "
                     tmp += trafficList[i].callType + " "
-                    tmp == trafficList[i].fee + " "
+                    tmp += str(trafficList[i].fee) + " "
                     totalList.append(tmp)
 
             if checkType == "sms":
@@ -284,7 +284,7 @@ def checkUsage(request):
                     tmp += smsList[i].receiverNumber + " "
                     tmp += str(smsList[i].sendTime) + " "
                     tmp += str(smsList[i].receiveTime) + " "
-                    tmp += smsList[i].fee + " "
+                    tmp += str(smsList[i].fee) + " "
                     totalList.append(tmp)
 
             if checkType == "data":
@@ -296,7 +296,7 @@ def checkUsage(request):
                     tmp += str(dataflowList[i].startTime) + " "
                     tmp += str(dataflowList[i].endTime) + " "
                     tmp += dataflowList[i].dataflow + " "
-                    tmp += dataflowList[i].fee + " "
+                    tmp += str(dataflowList[i].fee) + " "
                     totalList.append(tmp)
 
             return render(request, 'checkUsage.html',
